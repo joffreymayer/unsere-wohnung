@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsere Wohnung</title>
+    <meta name="description" content="Willkommen auf unserer Wohnungs-Webseite!">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- You need this for the Slideshow: https://swiperjs.com/get-started#what-next -->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="ul-navi">
+                <li class="first-navi-item">Unsere Wohnung</li>
+                <li class="second-navi-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="house-svg"><path d="M511.8 287.6L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L416 100.7V64C416 46.33 430.3 32 448 32H480C497.7 32 512 46.33 512 64V185L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6L511.8 287.6z"/></svg>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Start of Slilder -->
+    <div class="swiper-container"> <!-- Slider main container -->
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide blockquote" 
+            style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(bilder/foto1.jpg) center/cover no-repeat;">
+                <h1>Herzlich Willkommen auf unserer Vorstellungs-Website!</h1>
+            </div>
+            <div class="swiper-slide blockquote" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), var(--second-swipe) center/cover no-repeat;">
+                <p>Wir, Viviane & Joffrey, sind auf der Suche nach einer gemeinsamen Wohngemeinschaft, um langfristig ein Zuhause mitten im Herzen des wunderschönen Zürichs zu finden.</p>
+            </div>
+            <div class="swiper-slide center-this-quote" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(bilder/foto3.jpg) center/cover no-repeat;">
+                <p>Unser Wohnungs-Motto: Good food, good mood!</p>
+            </div>
+            <div class="swiper-slide blockquote" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), var(--fourth-swipe) center/cover no-repeat;">
+                <p>Wir sind schon seit über 5 Jahren ein Paar und haben bereits viel gemeinsam erlebt. Dies verbindet uns und hat uns zum Entschluss geführt, dass wir in einem gemeinsamen Zuhause Raum für neue Erinnerungen & Erfahrungen schaffen wollen.</p>
+            </div>
+            <div class="swiper-slide blockquote" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), var(--fifth-swipe) center/cover no-repeat;">
+                <p>Wir sind kontaktfreudige, kommunikative und aufgeschlossene junge Erwachsene, die gerne Ausflüge unternehmen, unser neustes Informatikwissen anhand aktueller Technologien austesten oder den Abend mit Gesellschaftsspielen und einem leckeren Wein ausklingen lassen.</p>
+            </div>
+            <div class="swiper-slide blockquote" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), var(--sixth-swipe) center/cover no-repeat;">
+                <p>Finanziell sind wir aufgrund unserer Arbeitstätigkeit neben dem Studium und einem Vollzeitarbeitenden gut abgesichert. Und falls doch einmal alle Stricke reissen würden, haben wir die nettesten Eltern, die selbstverständlich für uns bürgen. </p>
+             </div>
+            <!--
+            <div class="swiper-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(bilder/kabel-abkoppler-3.jpg) center/cover no-repeat;">
+                Slide 7
+            </div>
+            <div class="swiper-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(bilder/netzkabel-hybrid.jpg) center/cover no-repeat;">
+                Slide 8
+            </div>
+            <div class="swiper-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(bilder/schmelzsicherung-2.jpg) center/cover no-repeat;">
+                Slide 9
+            </div>
+            <div class="swiper-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(bilder/verbindungskabel-cinch.jpg) center/cover no-repeat;">
+                Slide 10
+            </div> -->
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons (= Arrows) -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+
+    </div> <!-- end of Slider -->
+
+
+    <!-- Start of Personen-Vorstellung: Viviane -->
+    <section class="flex-centering-wrapper">
+        <div class="einzel-vorstellung">
+            <div class="grid-item spalte1-einzel-vorstellung">
+                <div class="flex-centering-img-wrapper">
+                    <img src="bilder/foto7-1528x1528.jpg" alt="Viviane Walker, Profilbild" class="circle-img">
+                </div>
+                <h2>Viviane Walker</h2>
+                <p class="pseudo-title-einzel-vorstellung">Publizistik- &amp; Kommunikations-Studentin</p>
+                <p class="pseudo-title-einzel-vorstellung">Universität Zürich</p>
+            </div>
+            <div class="grid-item spalte2-einzel-vorstellung">
+                <h3>Die Fürsorgliche</h3>
+
+                <p class="text">
+                    Viviane ist eine wahre Multi-Taskerin: sie studiert Kommunikationswissenschaft &amp; Computerlinguistik an der Universität Zürich und arbeitet Teilzeit als Werkstudentin Projektsupport SAP bei der Siemens Mobility in Wallisellen. Wenn sie nicht gerade am Studieren oder Arbeiten ist, findet sie ihre Balance gerne beim Kochen neuer Rezepte oder eine Sportsession im ASVZ.  
+                </p>
+
+                <p class="text">
+                    Viviane ist zusammen mit ihrem Bruder in einem kleinen Dorf aufgewachsen und schätzt daher eine gute Nachbarschaft. Für ein Schwätzchen ist sie immer zu haben. Ausserdem verteilt sie gern ihre veganen Schoko-Kekse aus.
+                </p> 
+                <!-- <p class="text">
+                    Wenn Viviane nicht gerade am Studieren ist, findet sie die Balance gern beim Spazieren im Park oder bei einer Sportsession im Fitnessstudio. Nebenbei ist sie ebenfalls häufig in der Küche beim Kochen anzutreffen. Ob Eintopf mit Gemüse, Pasta mit Blumenkohlsauce oder gebackene Süsskartoffel mit Krautstiel und Pilze. Sie kocht alles gern 'homemade'. Ausserdem züchtet sie bevorzugt Tomaten und Petersilien im selbstgebauten Hochbeet.
+                </p>
+                <p class="text">
+                    Viviane ist zusammen mit ihrem Bruder in einem kleinen Dorf aufgewachsen und schätzt daher eine gute Nachbarschaft. Für ein Schwätzchen ist sie immer zu haben. Ausserdem verteilt sie gern ihre veganen Schoko-Kekse aus.
+                </p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Start of Personen-Vorstellung: Joffrey -->
+    <section class="flex-centering-wrapper section2">
+        <div class="einzel-vorstellung">
+            <div class="grid-item spalte1-einzel-vorstellung">
+                <div class="flex-centering-img-wrapper">
+                    <img src="bilder/foto8-1458x1458.jpg" alt="Joffrey Mayer, Profilbild" class="circle-img">
+                </div>
+                <h2>Joffrey Mayer</h2>
+                <p class="pseudo-title-einzel-vorstellung">Webdesigner &amp; Data Scientist</p>
+                <p class="pseudo-title-einzel-vorstellung">bei Excellia Gmbh, Stäfa</p>
+            </div>
+            <div class="grid-item spalte2-einzel-vorstellung">
+                <h3>Der Aufge&shy;schlossene</h3>
+                <p class="text">
+                    Als ruhiger und aufgeschlossener Mensch ist Joffrey immer gut gelaunt und hat stets eine spannende Geschichte von seiner Studentenzeit auf Lager. Dabei unternimmt er gerne gemeinsam mit Freunden Ausflüge, insbesondere in Zürich, eine Stadt die er seit seiner Gymizeit immer neu zu entdecken pflegt. Ist er nicht gerade in einer seiner vielen Comic-Geschichten vertieft, versucht sich Joffrey auch an der französischen Küche für Familie und Freunde oder isst Glacé.
+                </p>
+                <p class="text">
+                    Im vergangenen Jahr hat Joffrey sein Studium an der UZH in 'Volkswirtschaft und Data Science' abgeschlossen und arbeitet seit Anfang des Jahres als hauptverantwortlicher der IT im Familienunternehmen der Excellia Gmbh.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex-centering-wrapper">
+        <div class="skills-grid">
+            <div class="zeile1-skills">
+                <h2>Das bieten wir der Nachbar&shy;schaft</h2>
+            </div>
+            <div class="inner-grid">
+                <div class="grid-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icons"><path d="M112 112C112 50.14 162.1 0 224 0C285.9 0 336 50.14 336 112V160H400C426.5 160 448 181.5 448 208V416C448 469 405 512 352 512H96C42.98 512 0 469 0 416V208C0 181.5 21.49 160 48 160H112V112zM160 160H288V112C288 76.65 259.3 48 224 48C188.7 48 160 76.65 160 112V160zM136 256C149.3 256 160 245.3 160 232C160 218.7 149.3 208 136 208C122.7 208 112 218.7 112 232C112 245.3 122.7 256 136 256zM312 208C298.7 208 288 218.7 288 232C288 245.3 298.7 256 312 256C325.3 256 336 245.3 336 232C336 218.7 325.3 208 312 208z"/></svg>
+                    <p class="text">Hilfe beim Tragen von schweren Lasten</p>
+                    <p class="text sub-text">Joffrey</p>
+                </div>
+                <div class="grid-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icons"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM164.1 325.5C158.3 318.8 148.2 318.1 141.5 323.9C134.8 329.7 134.1 339.8 139.9 346.5C162.1 372.1 200.9 400 255.1 400C311.1 400 349.8 372.1 372.1 346.5C377.9 339.8 377.2 329.7 370.5 323.9C363.8 318.1 353.7 318.8 347.9 325.5C329.9 346.2 299.4 368 255.1 368C212.6 368 182 346.2 164.1 325.5H164.1zM226.5 231.6C229.8 230.5 232 227.4 232 224C232 206.1 225.3 188.4 215.4 175.2C205.6 162.2 191.5 152 176 152C160.5 152 146.4 162.2 136.6 175.2C126.7 188.4 120 206.1 120 224C120 227.4 122.2 230.5 125.5 231.6C128.7 232.7 132.3 231.6 134.4 228.8L134.4 228.8L134.6 228.5C134.8 228.3 134.1 228 135.3 227.6C135.1 226.8 136.9 225.7 138.1 224.3C140.6 221.4 144.1 217.7 148.3 213.1C157.1 206.2 167.2 200 176 200C184.8 200 194.9 206.2 203.7 213.1C207.9 217.7 211.4 221.4 213.9 224.3C215.1 225.7 216 226.8 216.7 227.6C217 228 217.2 228.3 217.4 228.5L217.6 228.8L217.6 228.8C219.7 231.6 223.3 232.7 226.5 231.6V231.6zM377.6 228.8C379.7 231.6 383.3 232.7 386.5 231.6C389.8 230.5 392 227.4 392 224C392 206.1 385.3 188.4 375.4 175.2C365.6 162.2 351.5 152 336 152C320.5 152 306.4 162.2 296.6 175.2C286.7 188.4 280 206.1 280 224C280 227.4 282.2 230.5 285.5 231.6C288.7 232.7 292.3 231.6 294.4 228.8L294.4 228.8L294.6 228.5C294.8 228.3 294.1 228 295.3 227.6C295.1 226.8 296.9 225.7 298.1 224.3C300.6 221.4 304.1 217.7 308.3 213.1C317.1 206.2 327.2 200 336 200C344.8 200 354.9 206.2 363.7 213.1C367.9 217.7 371.4 221.4 373.9 224.3C375.1 225.7 376 226.8 376.7 227.6C377 228 377.2 228.3 377.4 228.5L377.6 228.8L377.6 228.8z"/></svg>
+                    <p class="text">Lächeln schenken im Treppenhaus bereits in den frühen Morgenstunden</p>
+                    <p class="text sub-text">Viviane &amp; Joffrey</p>
+                </div>
+                <div class="grid-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icons"><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM57.71 192.1L67.07 209.4C75.36 223.9 88.99 234.6 105.1 239.2L162.1 255.7C180.2 260.6 192 276.3 192 294.2V334.1C192 345.1 198.2 355.1 208 359.1C217.8 364.9 224 374.9 224 385.9V424.9C224 440.5 238.9 451.7 253.9 447.4C270.1 442.8 282.5 429.1 286.6 413.7L289.4 402.5C293.6 385.6 304.6 371.1 319.7 362.4L327.8 357.8C342.8 349.3 352 333.4 352 316.1V307.9C352 295.1 346.9 282.9 337.9 273.9L334.1 270.1C325.1 261.1 312.8 255.1 300.1 255.1H256.1C245.9 255.1 234.9 253.1 225.2 247.6L190.7 227.8C186.4 225.4 183.1 221.4 181.6 216.7C178.4 207.1 182.7 196.7 191.7 192.1L197.7 189.2C204.3 185.9 211.9 185.3 218.1 187.7L242.2 195.4C250.3 198.1 259.3 195 264.1 187.9C268.8 180.8 268.3 171.5 262.9 165L249.3 148.8C239.3 136.8 239.4 119.3 249.6 107.5L265.3 89.12C274.1 78.85 275.5 64.16 268.8 52.42L266.4 48.26C262.1 48.09 259.5 48 256 48C163.1 48 84.4 108.9 57.71 192.1L57.71 192.1zM437.6 154.5L412 164.8C396.3 171.1 388.2 188.5 393.5 204.6L410.4 255.3C413.9 265.7 422.4 273.6 433 276.3L462.2 283.5C463.4 274.5 464 265.3 464 256C464 219.2 454.4 184.6 437.6 154.5H437.6z"/></svg>
+                    <p class="text">Reisetipps &amp; -Tricks</p>
+                    <p class="text sub-text">Viviane</p>
+                </div>
+                <div class="grid-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="icons"><path d="M128 96h384v256h64v-272c0-26.38-21.62-48-48-48h-416c-26.38 0-48 21.62-48 48V352h64V96zM624 383.1h-608c-8.75 0-16 7.25-16 16v16c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.2 632.8 383.1 624 383.1z"/></svg>
+                    <p class="text">Aushilfe beim Informatik-Setup</p>
+                    <p class="text sub-text">Viviane &amp; Joffrey</p>
+                </div>
+                <div class="grid-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icons"><path d="M336 64h158.5L512 0H48C21.49 0 0 21.49 0 48v160C0 234.5 21.49 256 48 256h103.3L160 352h256l17.49-64H336C327.2 288 320 280.8 320 272S327.2 256 336 256h106.1l17.49-64H336C327.2 192 320 184.8 320 176S327.2 160 336 160h132.4l17.49-64H336C327.2 96 320 88.8 320 80S327.2 64 336 64zM64 192V64h69.88L145.5 192H64zM416 384H160c-35.38 0-64 28.62-64 64l-.0001 32c0 17.62 14.38 32 32 32h320c17.62 0 32-14.38 32-32l.0003-32C480 412.6 451.4 384 416 384zM288 480c-17.62 0-32-14.38-32-32s14.38-32 32-32s32 14.38 32 32S305.6 480 288 480z"/></svg>
+                    <p class="text">Notfallbackzutaten sind immer bei uns aufzufinden</p>
+                    <p class="text sub-text">Viviane</p>
+                </div>
+                <div class="grid-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icons"><path d="M460.7 249.6c5.877 4.25 12.47 6.393 19.22 6.393c10.76 0 32.05-8.404 32.05-31.97c0-9.74-4.422-19.36-12.8-25.65l-111.5-83.48c-13.75-10.25-29.04-18.42-45.42-23.79l-63.66-21.23l-26.12-52.12c-5.589-11.17-16.9-17.64-28.63-17.64c-17.8 0-31.99 14.47-31.99 32.01c0 4.803 1.086 9.674 3.374 14.25l29.12 58.12c5.75 11.38 15.55 19.85 27.67 23.98l16.45 5.522L227.3 154.6C205.5 165.5 191.9 187.4 191.9 211.8L191.9 264.9L117.8 289.6C104.4 294.1 95.95 306.5 95.95 319.9c0 12.05 6.004 19.05 10.33 23.09l-38.68-14.14C41.23 319.4 49.11 295 23.97 295c-18.67 0-23.97 17.16-23.97 24.09c0 8.553 13.68 41.32 51.13 54.88l364.1 132.8C425.7 510.2 435.7 512 445.7 512c12.5 0 24.97-2.732 36.47-8.232c8.723-3.997 13.85-12.71 13.85-21.77c0-18.67-17.15-23.96-24.06-23.96c-3.375 0-6.73 .7505-9.998 2.248c-5.111 2.486-10.64 3.702-16.21 3.702c-4.511 0-9.049-.7978-13.41-2.364l-90.68-33.12c8.625-4.125 15.53-11.76 17.78-21.89l21.88-101.1c.7086-3.335 1.05-6.668 1.05-10c0-14.91-6.906-29.31-19.17-38.4l-52.01-39l66.01-30.5L460.7 249.6zM316.3 301.3l-19.66 92c-.4205 1.997-.5923 3.976-.5923 5.911c0 4.968 1.264 9.691 3.333 14.01l-169.5-61.49c2.625-.25 5.492-.4448 8.117-1.32l85-28.38c19.63-6.5 32.77-24.73 32.77-45.48l0-20.53L316.3 301.3zM431.9 95.99c26.5 0 48-21.5 48-47.1S458.4 0 431.9 0s-48 21.5-48 47.1S405.4 95.99 431.9 95.99z"/></svg>
+                    <p class="text">Interesse an gemeinsamen sportlichen Aktivitäten</p>
+                    <p class="text sub-text">Joffrey &amp; Viviane</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <p class="text">&copy; unsere-wohnung.ch</p>
+            <button id="goUp">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="up-svg"><path d="M416 352c-8.188 0-16.38-3.125-22.62-9.375L224 173.3l-169.4 169.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25C432.4 348.9 424.2 352 416 352z"/></svg>
+            </button>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!-- You need this for the Slideshow -->
+    <script src="js/slideshow.js"></script>
+    <script src="js/go-up.js"></script><!-- You need this in order to be able to go back up, when the user gets to the end of the page. -->
+</body>
+</html>
